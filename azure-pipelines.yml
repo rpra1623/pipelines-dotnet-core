@@ -18,7 +18,7 @@ steps:
         version: '3.0.x'
         packageType: runtime
 
-steps:
+
     - task: UseDotNet@2
       displayName: 'Install .NET Core SDK'
       inputs:
