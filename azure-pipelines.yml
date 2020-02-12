@@ -61,7 +61,7 @@ steps:
 
     # ...
     # do this after your tests have run
-    - script: dotnet test <test-project> --logger trx
+    - script: dotnet test dotnet--logger trx
     - task: PublishTestResults@2
       condition: succeededOrFailed()
       inputs:
