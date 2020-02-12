@@ -18,10 +18,8 @@ steps:
         version: '3.0.x'
         packageType: runtime
     - task: UseDotNet@2
-  displayName: 'Install .NET Core SDK'
-  inputs:
-    version: 3.0.x
-    performMultiLevelLookup: true
+        displayName: 'Install .NET Core SDK'
+        performMultiLevelLookup: true
 
 # do this before your build tasks
 steps:
