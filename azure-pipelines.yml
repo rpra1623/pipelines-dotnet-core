@@ -42,7 +42,7 @@ steps:
       inputs:
         command: build
         projects: '**/*.csproj'
-        arguments: '--configuration Release' # Update this to match your need
+        arguments: 'buildconfiguration Release' # Update this to match your need
 
     - task: UseDotNet@2
       displayName: 'Install dotnetsay'
